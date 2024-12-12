@@ -1,0 +1,1 @@
+This repository demonstrates a common, yet subtle, bug in PHP related to loose comparisons using the `==` operator.  The code showcases the unexpected equality between a string '0' and a boolean `false`. This can lead to unexpected program behavior and difficult-to-debug issues. The solution demonstrates how to utilize strict comparison (`===`) to avoid this pitfall.
